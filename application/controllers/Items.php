@@ -23,6 +23,11 @@ class Items extends CI_Controller {
 
 	public function add_item($id)
 	{
+		//adding the item to our session list and updating the total items counter
+		//the session variable should only store the item id number and quantity
+		//we do not want to store anything else in session 
+
+
 		//getting the quantity the user selected from the view page
 		$quantity = $this->input->post('quantity');
 

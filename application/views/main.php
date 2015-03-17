@@ -15,7 +15,7 @@
 		</thead>
 		<tbody>
 <?php  
-
+//check out your session data!!!!
 var_dump($this->session->userdata);
 
 			foreach($items as $item)
